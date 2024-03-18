@@ -4,7 +4,7 @@
 
     <groupId>org.example</groupId>
     <artifactId>autoAPI</artifactId>
-    <version>1.0</version>
+    <version>1.1</version>
 
     <properties>
         <maven.compiler.source>1.8</maven.compiler.source>
@@ -92,7 +92,7 @@
 
     <scm>
         <developerConnection>scm:git:git@github.com:phandinh2010/automationAPI</developerConnection>
-        <tag>autoAPI-1.0</tag>
+        <tag>autoAPI-1.1</tag>
     </scm>
 
 
