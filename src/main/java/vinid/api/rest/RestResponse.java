@@ -1,6 +1,8 @@
 package vinid.api.rest;
+
 import io.restassured.response.Response;
 import io.restassured.response.ValidatableResponse;
+
 public class RestResponse {
 
     private Response response;
@@ -13,7 +15,8 @@ public class RestResponse {
     }
 
     public ValidatableResponse validate() {
-        return (ValidatableResponse)this.response.then();
+
+        return (ValidatableResponse) this.response.then();
     }
 
     public Response extract() {

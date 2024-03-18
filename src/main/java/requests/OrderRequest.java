@@ -1,6 +1,5 @@
 package requests;
 
-import com.google.inject.Inject;
 import model.RequestInfo;
 import org.junit.Assert;
 import vinid.api.rest.*;
@@ -9,9 +8,9 @@ import vinid.api.utils.Log;
 import static requests.PathUrl.*;
 
 
-public class LoginRequest extends BaseRequest{
+public class OrderRequest extends BaseRequest{
 
-    private Log XLog = new Log(LoginRequest.class);
+    private Log XLog = new Log(OrderRequest.class);
 
     private RestHeaders headers;
     private RestRequest request;

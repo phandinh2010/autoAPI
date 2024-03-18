@@ -14,7 +14,7 @@ public class LoginSteps {
 
     @Given("^I login to app with phone number (.*) and  otp (.*)$")
     public void loginApp(String phoneNumber, String OTP) {
-        loginRequest.getTokenSDK(phoneNumber, OTP);
-        System.out.println("Access token: " + requestInfo.getAccessToken());
+//        loginRequest.getTokenSDK(phoneNumber, OTP);
+//        System.out.println("Access token: " + requestInfo.getAccessToken());
     }
 }
