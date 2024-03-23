@@ -1,6 +1,7 @@
 package requests;
 
 import com.google.inject.Inject;
+import io.cucumber.guice.ScenarioScoped;
 import model.RequestInfo;
 import org.junit.Assert;
 import vinid.api.rest.*;
@@ -8,13 +9,15 @@ import vinid.api.utils.Log;
 
 import static requests.PathUrl.*;
 
-
+@ScenarioScoped
 public class LoginRequest extends BaseRequest{
 
     private Log XLog = new Log(LoginRequest.class);
 
     private RestHeaders headers;
     private RestRequest request;
+
+    @Inject
     private RequestInfo requestInfo;
     private String authorization_code;
 
@@ -60,8 +63,7 @@ public class LoginRequest extends BaseRequest{
             System.out.println(message);
             System.out.println(detailResponse);
         } else {
-            this.requestInfo.setUserID(response.extract().path("data.user_id"));
-            this.requestInfo.setAccessToken(response.extract().jsonPath().getString("data.access_token"));
+            requestInfo.setAccessToken(response.extract().jsonPath().getString("data.access_token"));
         }
     }
 

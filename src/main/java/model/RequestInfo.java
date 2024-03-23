@@ -3,13 +3,16 @@ package model;
 
 import groovy.lang.Singleton;
 
+import io.cucumber.guice.ScenarioScoped;
+import lombok.AllArgsConstructor;
 import lombok.Getter;
 
+import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 @Getter
 @Setter
-@Singleton
+@ScenarioScoped
 public class RequestInfo {
     String phoneNumber;
     String accessToken;
