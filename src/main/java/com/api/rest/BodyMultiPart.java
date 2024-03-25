@@ -1,4 +1,4 @@
-package vinid.api.rest;
+package com.api.rest;
 
 import java.util.ArrayList;
 import java.util.List;

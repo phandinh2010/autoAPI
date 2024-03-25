@@ -1,4 +1,4 @@
-package vinid.api.rest;
+package com.api.rest;
 
 
 import java.io.File;
@@ -6,6 +6,10 @@ import java.util.Iterator;
 import java.util.List;
 
 
+import com.api.rest.auth.RestAuth;
+import com.api.rest.filter.RebrandFilterImpl;
+import com.api.rest.filter.RequestFilter;
+import com.api.utils.Log;
 import io.restassured.RestAssured;
 import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.config.HttpClientConfig;
@@ -17,10 +21,6 @@ import io.restassured.http.Cookies;
 import io.restassured.path.json.config.JsonPathConfig;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
-import vinid.api.rest.auth.RestAuth;
-import vinid.api.rest.filter.RebrandFilterImpl;
-import vinid.api.rest.filter.RequestFilter;
-import vinid.api.utils.Log;
 
 
 public class RestRequest {

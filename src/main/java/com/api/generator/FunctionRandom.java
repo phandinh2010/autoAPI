@@ -1,4 +1,4 @@
-package vinid.api.generator;
+package com.api.generator;
 
 import org.apache.commons.lang3.RandomStringUtils;
 

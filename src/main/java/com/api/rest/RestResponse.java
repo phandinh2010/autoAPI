@@ -1,4 +1,4 @@
-package vinid.api.rest;
+package com.api.rest;
 
 import io.restassured.response.Response;
 import io.restassured.response.ValidatableResponse;

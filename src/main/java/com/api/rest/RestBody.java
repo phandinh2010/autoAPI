@@ -1,12 +1,12 @@
-package vinid.api.rest;
+package com.api.rest;
 
+import com.api.exceptions.JsonCreationException;
+import com.api.exceptions.JsonElementNotFoundException;
 import com.google.gson.GsonBuilder;
 import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonPrimitive;
-import vinid.api.exceptions.JsonCreationException;
-import vinid.api.exceptions.JsonElementNotFoundException;
 
 public class RestBody {
 

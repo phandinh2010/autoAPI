@@ -1,4 +1,4 @@
-package vinid.api.rest;
+package com.api.rest;
 
 import java.util.HashMap;
 import java.util.Map;

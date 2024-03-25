@@ -1,9 +1,9 @@
 package requests;
 
+import com.api.rest.*;
 import model.RequestInfo;
 import org.junit.Assert;
-import vinid.api.rest.*;
-import vinid.api.utils.Log;
+import com.api.utils.Log;
 
 import static requests.PathUrl.*;
 

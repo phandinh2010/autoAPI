@@ -1,7 +1,7 @@
 package requests;
 
-import vinid.api.rest.RestBody;
-import vinid.api.rest.RestHeaders;
+import com.api.rest.RestBody;
+import com.api.rest.RestHeaders;
 
 public class BaseRequest {
 

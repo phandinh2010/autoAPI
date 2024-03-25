@@ -1,7 +1,7 @@
-package vinid.api.rest.filter;
+package com.api.rest.filter;
 
+import com.api.utils.Log;
 import io.restassured.http.Header;
-import vinid.api.utils.Log;
 
 import java.util.Iterator;
 import java.util.List;

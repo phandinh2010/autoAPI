@@ -1,4 +1,4 @@
-package vinid.api.utils;
+package com.api.utils;
 
 import java.math.BigDecimal;
 

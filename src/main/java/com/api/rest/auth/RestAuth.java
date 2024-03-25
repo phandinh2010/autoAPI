@@ -1,4 +1,4 @@
-package vinid.api.rest.auth;
+package com.api.rest.auth;
 
 import io.restassured.authentication.AuthenticationScheme;
 

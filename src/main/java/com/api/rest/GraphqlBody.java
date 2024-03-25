@@ -1,4 +1,4 @@
-package vinid.api.rest;
+package com.api.rest;
 
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;

@@ -1,4 +1,4 @@
-package vinid.api.rest;
+package com.api.rest;
 
 import com.github.dzieciou.testing.curl.Platform;
 import java.util.ArrayList;

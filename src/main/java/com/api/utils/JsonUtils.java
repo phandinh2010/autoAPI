@@ -1,4 +1,4 @@
-package vinid.api.utils;
+package com.api.utils;
 
 import com.google.gson.*;
 import com.google.gson.stream.JsonReader;

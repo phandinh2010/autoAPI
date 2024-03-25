@@ -1,4 +1,4 @@
-package vinid.api.exceptions;
+package com.api.exceptions;
 
 public class JsonCreationException extends  RuntimeException{
     public JsonCreationException() {

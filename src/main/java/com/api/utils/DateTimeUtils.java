@@ -1,4 +1,4 @@
-package vinid.api.utils;
+package com.api.utils;
 
 import java.sql.Timestamp;
 import java.text.ParseException;

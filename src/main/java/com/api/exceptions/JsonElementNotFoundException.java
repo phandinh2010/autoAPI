@@ -1,4 +1,4 @@
-package vinid.api.exceptions;
+package com.api.exceptions;
 
 public class JsonElementNotFoundException extends RuntimeException{
     public JsonElementNotFoundException(String message) {

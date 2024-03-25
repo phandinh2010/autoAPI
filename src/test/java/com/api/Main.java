@@ -1,4 +1,4 @@
-package vinid.api;
+package com.api;
 
 import io.restassured.RestAssured;
 import io.restassured.response.Response;

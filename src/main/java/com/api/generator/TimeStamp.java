@@ -1,4 +1,4 @@
-package vinid.api.generator;
+package com.api.generator;
 
 import java.sql.Timestamp;
 

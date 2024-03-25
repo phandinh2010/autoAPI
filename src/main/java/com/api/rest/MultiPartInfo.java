@@ -1,4 +1,4 @@
-package vinid.api.rest;
+package com.api.rest;
 
 public class MultiPartInfo {
 

@@ -1,4 +1,4 @@
-package vinid.api.rest.filter;
+package com.api.rest.filter;
 
 import io.restassured.filter.Filter;
 import io.restassured.filter.FilterContext;
